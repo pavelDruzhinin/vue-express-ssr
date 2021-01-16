@@ -1,0 +1,13 @@
+{
+  "include": ["*.js", "*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "checkJs": true,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
